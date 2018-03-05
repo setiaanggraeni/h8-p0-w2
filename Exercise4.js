@@ -1,18 +1,32 @@
 var tanggal = 1;
 var bulan= 12;
 var tahun = 2018;
+var keterangan = '';
 switch(bulan) {
-  case 1:   { console.log(tanggal + " " + 'January' + " " + tahun); break; }
-  case 2:   { console.log(tanggal + " " + 'February' + " " + tahun); break; }
-   case 3:   { console.log(tanggal + " " + 'March' + " " + tahun); break; }
-  case 4:   { console.log(tanggal + " " + 'April' + " " + tahun); break; }
-    case 5:   { console.log(tanggal + " " + 'May' + " " + tahun); break; }
-  case 6:   { console.log(tanggal + " " + 'June' + " " + tahun); break; }
-    case 7:   { console.log(tanggal + " " + 'July' + " " + tahun); break; }
-  case 8:   { console.log(tanggal + " " + 'August' + " " + tahun); break; }
-    case 9:   { console.log(tanggal + " " + 'September' + " " + tahun); break; }
-  case 10:   { console.log(tanggal + " " + 'October' + " " + tahun); break; }
-    case 11:   { console.log(tanggal + " " + 'November' + " " + tahun); break; }
-  case 12:   { console.log(tanggal + " " + 'December' + " " + tahun); break; }
+  case 1: keterangan = 'January';
+    break;
+  case 2: keterangan = 'February';
+    break;
+   case 3: keterangan = 'March';
+     break;
+  case 4: keterangan = 'April';
+    break;
+    case 5: keterangan = 'May';
+      break;
+  case 6: keterangan = 'June';
+    break;
+    case 7: keterangan = 'July';
+      break;
+  case 8: keterangan = 'August';
+    break;
+    case 9: keterangan = 'September';
+      break;
+  case 10: keterangan = 'October';
+    break;
+    case 11: keterangan = 'November';
+      break;
+  case 12: keterangan = 'Desember';
+    break;
   default:  { console.log('Salah Input Bulan'); }
 }
+console.log (tanggal + " " + keterangan + " " + tahun);
